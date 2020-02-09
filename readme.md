@@ -1,6 +1,9 @@
 # A NIfTI (nii.gz) 3D Visualizer using VTK and Qt5
 
-<img src="https://github.com/adamkwolf/3d-nii-visualizer/blob/master/images/visualization.png" style="width: 100px;"/>
+![Visualization UI](images/visualization.png)
+
+### Important reminders
+Make sure the image file is the original one from BraTS dataset (without any normalization)
 
 ### Run with Python
 
@@ -9,7 +12,8 @@
 3.  Start the program `python ./visualizer/brain_tumor_3d.py -i "./sample_data/10labels_example/T1CE.nii.gz" -m "./sample_data/10labels_example/mask.nii.gz"`
 
 ### Run prebuilt executables
-Go into project directory and run `./dist/Theia -i "./sample_data/10labels_example/T1CE.nii.gz" -m "./sample_data/10labels_example/mask.nii.gz"
+Go into project directory and run 
+`./dist/Theia -i "./sample_data/10labels_example/T1CE.nii.gz" -m "./sample_data/10labels_example/mask.nii.gz"
 `
 
 ### Generate PyInstaller Binaries
