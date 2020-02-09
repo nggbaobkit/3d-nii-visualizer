@@ -1,0 +1,1 @@
+./dist/Theia -i "./my_data/Brats18_CBICA_AVV_1_t1.nii.gz" -m "./my_data/prediction.nii.gz"
