@@ -1,1 +1,5 @@
-./dist/Theia -i "./my_data/Brats18_CBICA_AVV_1_t1.nii.gz" -m "./my_data/prediction.nii.gz"
+./dist/Theia -i "./my_data/3dUnet_Brats18_TCIA10_276_1/data_t1.nii.gz" -m "./my_data/3dUnet_Brats18_TCIA10_276_1/truth.nii.gz"
+./dist/Theia -i "./my_data/3dUnet_Brats18_TCIA10_276_1/data_t1.nii.gz" -m "./my_data/3dUnet_Brats18_TCIA10_276_1/prediction.nii.gz"
+
+./dist/Theia -i "./my_data/Attention_Brats18_TCIA10_276_1/data_t1.nii.gz" -m "./my_data/Attention_Brats18_TCIA10_276_1/truth.nii.gz"
+./dist/Theia -i "./my_data/Attention_Brats18_TCIA10_276_1/data_t1.nii.gz" -m "./my_data/Attention_Brats18_TCIA10_276_1/prediction.nii.gz"
